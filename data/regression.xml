@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="regression">
+	<test name="NewAccountTest">
+		<parameter name="userName" value="techfiosdemo@gmail.com" />
+		<parameter name="Password" value="abc123" />
+		<parameter name="AccountName" value="Jamal" />
+		<parameter name="Description" value="Savings" />
+		<parameter name="Amount" value="100" />
+		<parameter name="ItemName" value="Pencil" />
+		<parameter name="qty" value="2" />
+		<parameter name="price" value="9.99" />
+		<classes>
+			<class name="test.NewInvoiceTest" />
+		</classes>
+	</test>
+</suite>
